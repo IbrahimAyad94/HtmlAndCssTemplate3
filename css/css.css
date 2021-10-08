@@ -1,0 +1,356 @@
+/*start of gloabel */
+body{
+	height: 3000px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+*{
+	
+}
+ h3{
+	font-weight: 100;
+	font-size: 25px;
+	color: #797979;
+}
+p{
+	color: #8a8888;
+}
+
+/* End of gloabel */
+/* start of header */
+
+/* end of header */
+.header{
+	background-image: url('../images/header_stock.png');
+	height: 500px; 
+	background-repeat: none;
+	background-size: cover;
+	color: #FFF;
+}
+
+.header .navbar{
+	padding: 20px 0;
+	
+}
+
+.header .intro{
+
+}
+.header .intro h1{
+	margin: 0;
+	font-weight: 800;
+	font-size: 60px; 
+}
+.header .intro p{
+	padding-bottom: 20px;
+	line-height: 2.2;
+}
+.header .buttons button{
+	background-color: transparent;
+	padding: 5px 50px;
+	margin: 0 8px;
+	border-radius: 10px;
+	width: 180px;
+	border: 1px solid #FFF;
+}
+.header .buttons button:hover{
+	background-color: #f7600e;
+	border: 1px solid #f7600e;
+	transition: all .5s ease-in-out;
+}
+
+.arrow{
+	margin-top: 20px; 
+}
+.arrow i{
+	cursor: pointer;
+	border: 1px solid #FFF;
+	padding: 10px;
+	margin: 130px;
+	border-radius: 50%;
+
+}
+
+/* end of header */
+/* start of feature */
+.feature{
+margin: 50px 0;	
+}
+.feature .box{
+	width: 22%;
+	margin-right: 3%;
+	float: left;
+	/*text-align: center; this is inner class*/
+	line-height: 2;
+}
+.feature .box:last-of-child{
+	margin-right: 0;
+}
+.feature .box i{
+	border: 1px solid #DDD;
+	border-radius: 50%;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.feature .box i:hover{
+	color: #FFF;
+	border: 1px solid #f7600e;
+	background-color: #f7600e;
+	transition: all .5s ease-in-out;
+}
+.feature .box h2{
+	font-weight: 100;
+	font-size: 25px;
+	color: #797979;
+}
+.feature .box p{
+	color: #8a8888;
+	
+}
+/* end of feature */
+/* start subscibe */
+.subscibe{
+	height: 300px;
+}
+.subscibe  form {
+	line-height: 300px;
+}
+.subscibe input[type='text']{
+	width: 350px;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+}
+.subscibe input[type='submit']{
+	width: 180px;
+	color: #FFF;
+	background-color: #f7600e;
+	border: 1px solid #f7600e;
+}
+.subscibe input[type='submit']:hover{
+	color: #f7600e;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+}
+.subscibe input[type='text'], input[type='submit']{
+	border-radius: 8px;
+	height: 35px;
+	35px
+}
+/* end subscibe */
+
+/* end our */
+.our{
+	margin: 60px 0 20px;
+	line-height: 2;
+	
+	position: relative;
+}
+.our .text{
+	width: 500px;
+	margin: 0 auto;
+}
+.our .text h3{
+	font-weight: 100;
+	font-size: 25px;
+	color: #797979;
+}
+.our .text p{
+	color: #8a8888;	
+}
+.our .items{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.our .items .item{
+	float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 1.33333%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+    height: 403px
+	position: relative;
+}
+.our .items .item img{
+
+}
+.our .items .item .over{
+	color: #FFF!important;
+	position: absolute;
+	background-color: rgba(247, 96, 14, .9);
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-align: center;
+	display: none;
+}
+.our .items .item:hover .over {
+	display: block;
+	transition: all .5s ease-in-out;
+}
+.our .items .item .over p{
+	margin-bottom: 20px;
+}
+.our .items button{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+/* end our */
+/* start testim */
+.testim{
+
+	height: 400px;
+	background: url('../images/testimonials.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	position: relative;
+	margin: 40px 0;
+}
+.testim .overlay{
+	
+}
+.testim .client{
+	padding-top: 50px;
+}
+.testim .client p{
+		color: #FFF;
+}
+.testim .client img{
+	border-radius: 50%;
+}
+.testim .fa-chevron-right,
+.testim .fa-chevron-left {
+    position: absolute;
+	top: 50%;
+	color: #999;
+	cursor: pointer;
+}
+.testim .fa-chevron-right:hover,
+.testim .fa-chevron-left:hover {
+	color: #f7600e;
+}
+.testim .fa-chevron-left{
+	left: 0;
+}
+.testim .fa-chevron-right{
+	right: 0;
+}
+
+/* end testim */
+
+/* start team*/
+.our-team{}
+.our-team .person{
+	width: 23%;
+	margin-right: 2%;
+	float: left;
+}
+.our-team .person img{
+	width: 100%;
+	border-radius: 10px;
+	opacity: .4;
+}
+.our-team .person:hover img{
+	opacity: 1;
+	transition: all .5s ease-in-out;
+}
+
+
+.our-team .person i{
+	background-color: #999;
+	border: 1px solid #999;
+	color: #FFF;
+	padding: 7px;
+	border-radius: 50%;
+}
+.our-team .person:hover{
+	transition: all .5s ease-in-out;
+	color: #FFF;
+}
+.our-team .person:hover i:nth-of-type(1){
+	background-color: #3b5998;
+}
+.our-team .person:hover i:nth-of-type(2){
+	background-color:  #55acee;
+}
+.our-team .person:hover i:nth-of-type(3){
+	background-color: #dd4b39;
+	
+}
+
+/*end our team */
+
+
+
+
+
+
+
+/* start Of my framework */
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix{
+	clear: both;
+}
+.clearfix{
+	clear: both;
+}
+.center{
+	text-align: center;
+}
+.upper{
+	text-transform: uppercase;
+}
+.under{
+	text-decoration: none;
+}
+.floatleft{
+	float: left;
+}
+.floatright{
+	float: RIGHT;
+}
+.main-color {
+    color: #f7600e
+}
+.main-background{
+	background-color: #f7600e;
+}
+.overlay{
+	background: rgba(49, 55, 61, .9);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.button{
+	background-color: transparent;
+	margin: 10px 8px;
+	border-radius: 10px;
+	width: 180px;
+	border: 1px solid #DDD;
+
+}
+.button:hover{
+	background-color: #f7600e;
+	border: 1px solid #f7600e;
+	transition: all .5s ease-in-out;
+	color: #FFF;
+	transition: all .5s ease-in-out;
+}
+.hidden{
+	display: none;
+}
+/* end of my framework */
